@@ -1,3 +1,25 @@
+html,
 body {
+    margin: 0;
+    padding: 0;
     font-family: 'Lato';
+    background-color:red;
+}
+
+.header {
+    width: 100vw;
+    height: 20vh;
+    background-color:teal;
+}
+
+.content {
+    width: 100vw;
+    min-height: 70vh;
+    background-color:green;
+}
+
+.footer {
+    width: 100vw;
+    height: 10vh;
+    background-color:brown;
 }
