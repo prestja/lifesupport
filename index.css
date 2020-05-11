@@ -23,13 +23,17 @@ body {
     width: 100vw;
     min-height: 85vh;
     background-color:purple;
+    display: flex;
+    flex-flow: center;
+    flex-wrap: wrap;
 }
 
 .mod {
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    margin-top:1vw;
     background-color: white;
-    width: 40%;
+    width: 65vh;
+    max-height: 65vh;
+    margin-left: 1vw;
     border-radius: 1vh;
 }
 
