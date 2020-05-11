@@ -1,25 +1,46 @@
 html,
+h1,
 body {
     margin: 0;
     padding: 0;
     font-family: 'Lato';
-    background-color:red;
 }
 
 .header {
     width: 100vw;
-    height: 20vh;
-    background-color:teal;
+    height: 10vh;
+    background-color:plum;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    color:white;
 }
 
 .content {
     width: 100vw;
-    min-height: 70vh;
-    background-color:green;
+    min-height: 85vh;
+    background-color:purple;
+}
+
+.mod {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: white;
+    width: 40%;
+    border-radius: 1vh;
+}
+
+.mod h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 .footer {
     width: 100vw;
-    height: 10vh;
-    background-color:brown;
+    height: 5vh;
+    background-color: plum;
 }
