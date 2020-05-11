@@ -43,6 +43,17 @@ body {
     text-align: center;
 }
 
+.attribute {
+    background-color: lightgray;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    border-radius: 1vh;
+    font-family: "Lato";
+    color:blue;
+}
+
 .footer {
     width: 100vw;
     height: 5vh;
