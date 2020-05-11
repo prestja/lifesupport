@@ -25,6 +25,7 @@ body {
     background-color:purple;
     display: flex;
     flex-flow: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -33,7 +34,6 @@ body {
     background-color: white;
     width: 65vh;
     max-height: 65vh;
-    margin-left: 1vw;
     border-radius: 1vh;
 }
 
