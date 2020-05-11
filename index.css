@@ -9,7 +9,7 @@ body {
 .header {
     width: 100vw;
     height: 10vh;
-    background-color:plum;
+    background-color:purple;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,10 +22,10 @@ body {
 .content {
     width: 100vw;
     min-height: 85vh;
-    background-color:purple;
+    background-color:#3C1956;
     display: flex;
     flex-flow: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -34,6 +34,7 @@ body {
     background-color: white;
     width: 65vh;
     border-radius: 1vh;
+    min-height: 20vh;
 }
 
 .mod h2 {
@@ -45,5 +46,5 @@ body {
 .footer {
     width: 100vw;
     height: 5vh;
-    background-color: plum;
+    background-color: white;
 }
