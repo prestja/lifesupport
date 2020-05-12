@@ -9,7 +9,7 @@ body {
 .header {
     width: 100vw;
     height: 10vh;
-    background-color:purple;
+    background-color:darkorange;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +22,7 @@ body {
 .content {
     width: 100vw;
     min-height: 85vh;
-    background-color:#3C1956;
+    background-color:lightgrey;
     display: flex;
     flex-flow: center;
     justify-content: space-evenly;
@@ -30,22 +30,25 @@ body {
 }
 
 .mod {
-    margin-top:1vw;
+    margin-top:2vh;
     background-color: white;
     width: 65vh;
     border-radius: 1vh;
+    border-color:red;
     min-height: 20vh;
 }
 
-.mod h2 {
+.mod .title {
     margin: 0;
     padding-top: 1vh;
     text-align: center;
-    color:teal;
+    float: center;
+    color: black;
+    font-size: 4vh;
 }
 
 .attribute {
-    background-color: lightgray;
+    background-color: lightgrey;
     margin-left: 1vh;
     margin-right: 1vh;
     margin-bottom: 1vh;
@@ -56,6 +59,10 @@ body {
     font-family: "Lato";
     font-size: 3vh;
     justify-content: center;
+}
+
+.attribute i {
+    color: #005ECC;
 }
 
 .footer {
