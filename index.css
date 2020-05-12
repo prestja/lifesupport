@@ -49,9 +49,12 @@ body {
     margin-right: 1vh;
     margin-bottom: 1vh;
     margin-top: 1vh;
+    padding-top: 1vh;
+    padding-left: 1vh;
     border-radius: 1vh;
     font-family: "Lato";
-    color:blue;
+    font-size: 3vh;
+    justify-content: center;
 }
 
 .footer {
