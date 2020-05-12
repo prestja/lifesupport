@@ -39,8 +39,9 @@ body {
 
 .mod h2 {
     margin: 0;
-    padding: 0;
+    padding-top: 1vh;
     text-align: center;
+    color:teal;
 }
 
 .attribute {
